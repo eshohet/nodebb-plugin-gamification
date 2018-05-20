@@ -26,9 +26,6 @@
 	"less": [
 		"static/style.less"
 	],
-	"scripts": [
-		"static/lib/main.js"
-	],
 	"acpScripts": [
 		"static/lib/admin.js"
 	],
