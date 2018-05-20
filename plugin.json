@@ -18,6 +18,10 @@
 		{
 			"hook": "filter:post.getPosts",
 			"method": "filters.postGetPosts"
+		},
+		{
+			"hook": "filter:user.account",
+			"method": "filters.userAccount"
 		}
 	],
 	"staticDirs": {
