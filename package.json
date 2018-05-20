@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-gamification",
+  "version": "0.2.3",
+  "description": "Gamify your forum",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eshohet/nodebb-plugin-gamification"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin"
+  ],
+  "author": {
+    "name": "eshohet",
+    "email": "elliot.shohet@gmail.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "dependencies": {
+    "async": "^2.6.0"
+  }
+}

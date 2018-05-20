@@ -1,0 +1,36 @@
+{
+	"id": "nodebb-plugin-gamification",
+	"url": "https://github.com/eshohet/nodebb-plugin-gamification",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load",
+			"method": "init"
+		},
+		{
+			"hook": "filter:admin.header.build",
+			"method": "filters.addAdminNavigation"
+		},
+		{
+			"hook": "filter:post.get",
+			"method": "filters.postGet"
+		},
+		{
+			"hook": "filter:post.getPosts",
+			"method": "filters.postGetPosts"
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	],
+	"acpScripts": [
+		"static/lib/admin.js"
+	],
+	"templates": "static/templates"
+}
