@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-gamification",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Gamify your forum",
   "main": "library.js",
   "repository": {

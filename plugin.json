@@ -22,6 +22,10 @@
 		{
 			"hook": "filter:user.account",
 			"method": "filters.userAccount"
+		},
+		{
+			"hook": "filter:post.create",
+			"method": "filters.postCreate"
 		}
 	],
 	"staticDirs": {
@@ -29,6 +33,9 @@
 	},
 	"less": [
 		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/client.js"
 	],
 	"acpScripts": [
 		"static/lib/admin.js"

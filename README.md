@@ -17,6 +17,4 @@
 
 ## Screenshots
 
-Don't forget to add screenshots!
-
-![](screenshot.png)
+![Gamification progress bar](screenshot.png)
