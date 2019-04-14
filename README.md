@@ -1,8 +1,9 @@
 ## Installation
 
-    npm install nodebb-plugin-gamification
+    npm install --save nodebb-plugin-gamification
 
-## Template language
+## Theme modifications
+
 ### topic/post.tpl
      <!-- IF posts.lvl -->
         <!-- IMPORT partials/topic/level.tpl -->
