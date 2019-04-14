@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-gamification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatic gamification logic your forum",
   "main": "library.js",
   "repository": {
@@ -24,5 +24,8 @@
   },
   "dependencies": {
     "async": "^2.6.0"
+  },
+  "devDependencies": {
+    "version-bump-prompt": "^5.0.1"
   }
 }
